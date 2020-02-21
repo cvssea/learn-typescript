@@ -7,4 +7,4 @@ const drink = {
 type Drink = [string, boolean, number];
 
 const tupleDrink: Drink = ['brown', true, 40];
-tupleDrink[0] = 0;
+// tupleDrink[0] = 0;
