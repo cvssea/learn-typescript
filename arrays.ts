@@ -8,3 +8,12 @@ const make = carsByMake.pop();
 const makers = carMakers.map((car: string): { [car: string]: string } => ({
   [car]: car,
 }));
+
+interface Makers {
+  [car: string]: string;
+}
+
+function logMakers(makers: Makers[]): void {
+  console.log(makers);
+}
+logMakers(makers);
